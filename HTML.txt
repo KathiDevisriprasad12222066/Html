@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML FORMS</h2>
+
+<form action="action.html" >
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="password">password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JAVASCRIPT">
+  <label for="javascript">JAVASCRIPT</label><br><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="BIKE">
+  <label for="vehicle1">I HAVE A BIKE</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="CAR">
+  <label for="vehicle2">I HAVE ACAR</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="BOAT">
+  <label for="vehicle3">I HAVE A BOAT</label><br><br>
+  <input type="button" onclick="alert('HELLO WORLD')" value="click me!"><br>
+  <label for="favcolor">select your favourite color</label>
+  <input type="color" id="favcolor" name="favcolor"><br><br>
+  <label for="date">DATE</label>
+  <input type="date" id="date" name="date"><br><br>
+  <label for="time">TIME</label>
+  <input type="time" id="time" name="time"><br><br>
+  <label for="file">FILE</label>
+  <input type="file" id="file" name="file"><br><br>
+  <label for="hidden">HIDDEN</label>
+  <input type="hidden" id="hidden" name="hidden"><br><br>
+  <label for="image">IMAGE</label>
+  <input type="image" id="image" name="image"><br><br>
+  <label for="number">NUMBER</label>
+  <input type="number" id="number" name="number"><br><br>
+  <label for="range">RANGE</label>
+  <input type="range" id="range" name="range"><br><br>
+  <label for="search">SEARCH</label>
+  <input type="search" id="search" name="search"><br><br>
+  <label for="number">NUMBER</label>
+  <input type="number" id="number" name="number"><br><br>
+  <label for="tel">TEL</label>
+  <input type="tel" id="tel" name="tel"><br><br>
+  <label for="url">URL</label>
+  <input type="url" id="url" name="url"><br><br>
+  <label for="text">TEXT</label>
+  <input type="text" id="text" name="text"><br><br>
+  <input type="submit" value="submit">
+  <input type="reset" value="reset"><br><br><br>
+  
+</form>
+</body>
+</html>
